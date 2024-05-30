@@ -19,19 +19,4 @@ public class OauthServerApplication {
 		SpringApplication.run(OauthServerApplication.class, args);
 	}
 
-//	@Bean
-//	public UserDetailsService userDetailsService() {
-//		UserDetails userDetails = User.withUsername("user")
-//				.password("password")
-//				.roles("USER")
-//				.build();
-//
-//		return new InMemoryUserDetailsManager(userDetails);
-//	}
-//
-//	@Bean
-//	public PasswordEncoder passwordEncoder() {
-//		return NoOpPasswordEncoder.getInstance();
-//	}
-
 }
